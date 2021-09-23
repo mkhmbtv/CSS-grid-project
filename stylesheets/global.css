@@ -1,0 +1,12 @@
+body {
+  font-style: "Arial", "Helvetica", sans-serif;
+  line-height: 1em;
+}
+
+header,
+main,
+footer {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 40px;
+}

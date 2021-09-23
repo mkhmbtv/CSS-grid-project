@@ -1,0 +1,42 @@
+.masthead {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.masthead__menu-and-search {
+  display: flex;
+  padding-left: 20px;
+}
+
+.masthead__actions {
+  grid-column: 3 / 4;
+}
+
+.masthead__technologies {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+}
+
+.masthead__logo {
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+}
+
+.masthead__date {
+  grid-row: 3 / 4;
+  grid-column: 1 / 2;
+}
+
+.masthead__paper {
+  grid-row: 3 / 4;
+  grid-column: 3 / 4;
+}
+
+.masthead__icon-button {
+  font-size: 11px;
+  padding: 7px 9px;
+}
+
+.masthead__icon-button:hover {
+  background-color: #e2e2e2;
+}
