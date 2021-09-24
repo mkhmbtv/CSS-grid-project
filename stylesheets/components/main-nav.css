@@ -1,0 +1,10 @@
+.main-nav__list {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  padding-top: 7px;
+}
+
+.main-nav__list-item {
+  margin: 0 8px;
+}
