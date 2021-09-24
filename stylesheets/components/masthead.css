@@ -5,11 +5,16 @@
 
 .masthead__menu-and-search {
   display: flex;
+  align-items: center;
   padding-left: 20px;
 }
 
 .masthead__actions {
   grid-column: 3 / 4;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px
 }
 
 .masthead__technologies {

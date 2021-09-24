@@ -10,3 +10,19 @@ footer {
   margin: auto;
   padding: 0 40px;
 }
+
+button {
+  background-color: #6288a5;
+  border-radius: 3px;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 11px;
+  padding: 7px 9px;
+  margin: 0 4px;
+  text-transform: uppercase;
+  transition: .3s;
+}
+
+button:hover {
+  background-color: #326891;
+}
