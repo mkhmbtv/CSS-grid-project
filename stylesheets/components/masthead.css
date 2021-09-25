@@ -30,6 +30,7 @@
 .masthead__icon-button {
   font-size: 11px;
   padding: 7px 9px;
+  position: relative;
 }
 
 .masthead__icon-button:hover {
