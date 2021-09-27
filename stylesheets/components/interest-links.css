@@ -53,4 +53,9 @@
 	color: #27ae60;
 }
 
+@media screen and (max-width: 1000px) {
+	.interests-bar {
+		display: none;
+	}
+}
 
