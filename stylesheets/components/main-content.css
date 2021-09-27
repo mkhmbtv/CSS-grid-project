@@ -1,0 +1,144 @@
+.article {
+	padding: 10px;
+}
+
+.article__author {
+	text-transform: uppercase;
+}
+
+.article__byline {
+	color: #999;
+	margin-bottom: 8px;
+}
+
+.article__comments-link {
+	color: #6288a5;
+	padding-top: 8px;
+}
+
+.article__header {
+	padding: 0;
+}
+
+.article__image {
+	height: 70px;
+}
+
+.article__title {
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size: 16px;
+	margin-bottom: 8px;
+}
+
+.main {
+  	display: grid;
+  	grid-template-columns: 1fr 350px;
+	font-size: 12px;
+	line-height: 1.5em;
+	margin-top: 10px;
+}
+
+.main-article{
+	display: grid;
+	grid-template-columns: 1fr 500px;
+}
+
+.main-article__author {
+	text-transform: uppercase;
+}
+
+.main-article__byline {
+	color: #999;
+	margin-bottom: 1em;
+}
+
+.main-article__content {
+	padding-right: 1em;
+}
+
+.main-article__header {
+	grid-column: 1 / -1;
+	padding: 0;
+	margin-left: 0;
+}
+
+.main-article__list {
+	list-style-type: disc;
+	margin-left: 1.3em;
+}
+
+.main-article__list-item {
+	text-align: justify;
+	padding-bottom: 1em;
+}
+
+.main-article__primary-title {
+	font-weight: bold;
+	font-size: 28px;
+	font-style: italic;
+	text-transform: capitalize;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.main-article__title {
+	font-weight: bold;
+	font-size: 20px;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.main-article__video {
+	text-align: right;
+}
+
+.main-col {
+	border-right: 1px solid #e2e2e2;
+	padding-right: 1.3em;
+}
+
+.main-col__first-row {
+	padding-bottom: 6em;
+	border-bottom: 1px solid #000000;
+}
+
+.main-col__second-row {
+	display: flex;
+	border-bottom: 1px solid #000000;
+	margin-bottom: 3rem;
+}
+
+.main-col__second-row article:first-child {
+	border-right: 1px solid #e2e2e2;
+}
+
+.second-col {
+	display: flex;
+	flex-direction: column;
+	padding-left: .5em;
+}
+
+.second-col .article {
+	border-bottom: 1px solid #e2e2e2;
+	padding-bottom: .5em;
+}
+
+.teasers {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.teaser {
+	border-right: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	padding: 3px;
+}
+
+.teaser__author {
+	color: #999;
+}
+
+.teaser__title {
+	font-weight: bold;
+}
